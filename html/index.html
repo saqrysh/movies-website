@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="../css/reset.css"> -->
+  <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar ">
+    <div class="side-nav position-absolute ">
+      <div>
+        <ul class="p-0">
+          <li class="p-3 navbar-item nowplaying"><a class="text-decoration-none " href="#site-body">Now playing</a></li>
+          <li  class="p-3 navbar-item popular"><a class="text-decoration-none " href="#site-body">Popular</a></li>
+          <li class="p-3 navbar-item toprated"><a class="text-decoration-none " href="#site-body">Top Rated</a></li>
+          <li class="p-3 navbar-item trending"><a class="text-decoration-none " href="#site-body">Trending</a></li>
+          <li class="p-3 navbar-item upcoming"><a class="text-decoration-none " href="#site-body">Upcoming</a></li>
+          <li class="p-3 navbar-item"><a class="text-decoration-none " href="#contact-us">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="mb-5">
+        <div class="icons d-flex justify-content-start align-content-center text-white px-3 ">
+          <i class="fa-brands fa-facebook-f p-2"></i>
+          <i class="fa-brands fa-twitter p-2"></i>
+          <i class="fa-solid fa-basketball p-2"></i>
+        </div>
+        <div>
+          <p class="text-white p-3"> Copyright © 2019 All Rights Reserved.</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="navbar-toggle">
+      <div class="logo"><i class="fa fa-solid fa-film py-3"></i></div>
+      <div class="toggle-btn"><a href="#"><i class="fas fa-solid fa-bars"></i></a></div>
+    </div>
+  </nav>
+
+  <section id="site-body" class="site-body"> 
+    <div class="container my-5 g-5">
+      <div class="row">
+        <div class="search-area w-100 px-5 py-2 mb-4 text-center">
+          <input class="word-search-input col-12 col-lg-5 m-2" type="search" placeholder="get movie by word">
+          <input class="search-input col-12 col-lg-5 m-2" type="search" placeholder="search">
+        </div>
+      </div>
+      <div class="row cards">
+        <div class="col col-md-6 col-lg-4 movie-card">
+          <div class="wrapper">
+            <img class="card-image" src="" alt="">
+            <div class="movie-card-layer d-flex flex-column justify-content-center">
+              <h2 class="fs-4 py-2 mb-2 title"></h2>
+              <p class="desc lead p-4 mb-2"></p>
+              <p class="rate fs-6 py-2 mb-2"></p>
+              <p class="date  fs-6 py-2"></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact-us">
+    <div class="container">
+      <div class="row contact-form">
+        <div class="px-5">
+          <h2 class="text-white">Contact Us</h2>
+        </div>
+        
+        <form action="submit" class=" w-100 px-5 py-2">
+          <input class="col-12 col-lg-5 search-input m-4" type="search" placeholder="Name">
+          <input class="col-12 col-lg-5 search-input m-4" type="search" placeholder="Mail">
+          <input class="col-12 col-lg-5 search-input m-4" type="search" placeholder="Phone">
+          <input class="col-12 col-lg-5 search-input m-4" type="search" placeholder="Age">
+          <input class="col-12 col-lg-5 search-input m-4" type="search" placeholder="Enter Password">
+          <input class="col-12 col-lg-5 search-input m-4" type="search" placeholder="Confirm Password">
+          <div class="col-12 col-lg-5 text-start m-4 d-inline-block ">
+            <button class="btn btn-outline-danger "><a class="text-decoration-none lead text-white  " href="">Submit</a></button>
+           </div>
+      
+        </form>
+        
+      </div>
+    </div>
+  </section>
+
+
+  
+  <script src="../js/jquery-3.6.0.min.js "></script>
+  <script src="../js/all.min.js "></script>
+  <script src="../js/bootstrap.bundle.min.js "></script>
+  <script src="../js/plugins.js "></script>
+  <script src="../js/main.js "></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
